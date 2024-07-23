@@ -6,7 +6,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "EducaNet - Cursos de programação gratuitos",
-  description: "Uma plataforma para facilitar a vizualização dos cursos gratuitos do youtube",
+  description: "Uma plataforma para facilitar a vizualização de cursos gratuitos do youtube",
 };
 
 interface IRootLayout extends Readonly<{ children: React.ReactNode;}> { }
