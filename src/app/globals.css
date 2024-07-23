@@ -6,12 +6,16 @@
   --color-text: #ffffff;
 	--color-error: #980000;
 	--color-paper: #232323;
-	--color-primary: #009688;
+	--color-primary: #073045;
 	--color-background: #000000;
 	--color-primary-contrast: #ffffff;
 }
 
 html,
 body {
-  @apply bg-background text-text w-screen h-screen;
+  @apply bg-background text-text w-screen h-screen underline-offset-4;
+}
+
+a {
+  @apply hover:underline active:opacity-50 transition-opacity
 }
