@@ -13,6 +13,7 @@
 
 html,
 body {
+	overflow: overlay;
   @apply bg-background text-text w-screen h-screen underline-offset-4;
 }
 
